@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta thhp-eqriv="X-UA-Compatible" content="IE=edge,chorme=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="text.css">
+    <title>clucatuer</title>
+</head>
+<body>
+
+<div id="all">
+<div class="container">  
+<div id="reslt" class="half"contenteditable="true"   ></div>
+<div id="reslt2" class="half" style="text-align: right; direction: ltr;" ></div>
+
+</div>
+
+
+    <div id="bottons">
+    
+  
+       <div class="row"  >
+        <button class="column"  id="delet" >AC</button>
+        <button class="column" id="hh"  onclick="handleParentheses() "  >()</button>
+        <button class="column" id="gg"    onclick="written('%')"> %</button>
+        <button class="column"  id="rr"    onclick="written('/')">/</button>
+       </div>
+  
+   <div class="row">
+    <button class="column" id="seven"     onclick="written(7)">7</button>
+      <button class="column" id="eight"   onclick="written(8)">8</button>
+      <button class="column" id="nine"   onclick="written(9)">9</button>
+      <button class="column" id="double"  onclick="written('*')">*</button>
+   </div>
+      
+      <div class="row">
+        <button class="column" id="four"   onclick="written(4)">4</button>
+        <button class="column" id="five"  onclick="written(5)">5</button>
+        <button class="column" id="six"   onclick="written(6)">6</button>
+        <button  class="column " id="minus" onclick="written('-')" >-</button>
+     
+      </div>
+     
+<div class="row">   <button class="column" id="one"  onclick="written(1)">1</button>
+  <button class="column" id="two" onclick="written(2)">2</button>
+  <button class="column" id="three"  onclick="written(3)">3</button>
+  <button id="plus"  class="column "  onclick="written('+')">+</button>
+
+ 
+  
+ </div> 
+   
+      
+ <div class="row">
+
+  <button class="column" id="zero" onclick="written(0)" >0</button>
+  <button  class="column" id="dot" onclick="written('.')">.</button>
+  <button class="column" id="clear" >c</button>
+  <button class="column" id="equal"  >=</button>
+ 
+
+ 
+   
+
+    
+  
+
+
+  </div>
+
+
+</div>  </div>  </div>  </div>
+
+
+
+</body>
+<script src="menna.js"></script>
+</html>
