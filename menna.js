@@ -54,7 +54,7 @@ res.innerHTML+=value
     if(text==='1461989'){
 res2.innerHTML='i love u mom <3'
     }
-    else if(text==='942013'){
+   else if(text==='942013'){
       res2.innerHTML='u are a stupied girl somiia'
     }
     else if(text==='2112008'){
